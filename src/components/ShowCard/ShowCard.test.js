@@ -6,6 +6,8 @@
  import '@testing-library/jest-dom';
  import React from 'react';
  import userEvent from '@testing-library/user-event';
+ import { Provider } from 'react-redux';
+ import store from '../../store'
  
  import Header from '.';
 import ShowCard from '.';
@@ -39,7 +41,7 @@ import ShowCard from '.';
 
         expect(button.getAttribute("class")).toBe("");
 
-        await userEvent.click(button);
+        await userEvent.click(button); //userevent is now asynchronous and does not work otherwise
 
         expect(button.getAttribute("class")).toBe("saved");
     })

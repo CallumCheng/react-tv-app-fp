@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return <header>
-            <h1>Matt's TV Extravaganza</h1>
+            <h1>Your Favourite TV Shows</h1>
             <em>Copyright gleefully violated!</em>
             <nav>
                 <NavLink to="/">Search</NavLink>

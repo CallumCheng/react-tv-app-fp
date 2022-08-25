@@ -1,14 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Tourney:wght@600&display=swap');
+
 .show-card {
-    border: 4px dashed chartreuse;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-align: center;
+   background-color: rgb(255, 255, 255);
+   border-radius: 25px;
+}
+a {
+    color: aqua;
+}
+img {
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-nav > a {
-    margin: 0 1rem 0 1rem;
+p {
+    margin-top: -5px;
 }
 
-form, em {
-    display: block;
-    margin: 1rem 0 1rem 0;
+form {
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 30px;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: 'Tourney', cursive;
+    color: white;
+}
+
+h2 {
+    font-family: 'Tourney', cursive;
+    color: white;
 }
 
 .saved {
